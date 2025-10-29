@@ -21,6 +21,7 @@ function App() {
   const handleReset = () => {
     setClient(null);
     setApiKey('');
+    console.log(apiKey)
   };
 
   return (
